@@ -17,7 +17,9 @@ The use of enterprise analytics systems, such as PowerBI, is rapidly expanding. 
 
 Common Data Model evolved from its original structure-only form following the progress made in the interop space and the growth of cloud-based solutions and analytics. Originally focusing on explaining the structure and relationships between entities, Common Data Model offered a simple metadata format called ["model.json"](../model-json.md). This format, however, was not able to convey the richness of semantics the source systems had on the data they would insert into data lakes, leaving consumers with limited ability to understand it. In addition, the old format was heavily tied to the physical layout of the data, preventing people from building a higher level understanding of the logical and conceptual form of the data. The next generation of Common Data Model, generally referred to as ["manifest.cdm.json"](overview.md) format, was created to address these issues.
 
->[!NOTE] > #StackRadiusNotes
+>[!NOTE]
+> #StackRadiusNotes
+
 “Richness of Semantics” refers to the depth and complexity of meaning that can be associated with data. Source systems often have a lot of contextual information and nuanced understanding about the data they generate, which is referred to as the “semantics” of the data.
 
 With the new format providing many obvious benefits, existing systems utilizing the "model.json" format can add support for the newer format as well, while staying backward compatible. Common Data Model provides a Software Development Kit (SDK) that offers a uniform view of the two formats through its APIs. This SDK simplifies the process of adopting the "manifest.cdm.json" format. 
