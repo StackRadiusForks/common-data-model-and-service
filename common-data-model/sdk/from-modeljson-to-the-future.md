@@ -19,8 +19,7 @@ Common Data Model evolved from its original structure-only form following the pr
 
 >[!NOTE]
 > #StackRadiusNotes
-
-“Richness of Semantics” refers to the depth and complexity of meaning that can be associated with data. Source systems often have a lot of contextual information and nuanced understanding about the data they generate, which is referred to as the “semantics” of the data.
+>“Richness of Semantics” refers to the depth and complexity of meaning that can be associated with data. Source systems often have a lot of contextual information and nuanced understanding about the data they generate, which is referred to as the “semantics” of the data.
 
 With the new format providing many obvious benefits, existing systems utilizing the "model.json" format can add support for the newer format as well, while staying backward compatible. Common Data Model provides a Software Development Kit (SDK) that offers a uniform view of the two formats through its APIs. This SDK simplifies the process of adopting the "manifest.cdm.json" format. 
 
