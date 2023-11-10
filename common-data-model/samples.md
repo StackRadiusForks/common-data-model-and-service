@@ -158,6 +158,13 @@ In the Create Manifest example, you will learn how to create a manifest with a s
 
 1.  The following fragment implements resolving entities (creating instances of specific entities using their abstract definitions as well as foundation definitions). After that, each entity is saved to the directory in the corresponding JSON file along with the eponymous folder with an empty CSV partition file.
 
+> [!NOTE]
+> #StackRadiusNotes
+
+>The term “eponymous folder” refers to a folder that is named after the entity it represents. In the context of the paragraph you provided, each entity is saved to a directory in a JSON file. Along with this, a folder is created with the same name as the entity (hence, an “eponymous” folder), and this folder contains an empty CSV partition file. This process is part of resolving entities, which involves creating instances of specific entities using their abstract definitions as well as foundation definitions. 
+
+
+
     ```csharp
     // Create the resolved version of everything in the root folder too
 
