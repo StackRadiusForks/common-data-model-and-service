@@ -17,6 +17,9 @@ ms.author: Deonhe
 
 
 -   **Trait** - Annotation objects that are an expression of semantic meaning. Traits can hold a set of named argument values.
+>[!NOTE]
+> #StackRadiusNotes
+>An annotation object is a way to add extra information to the data model without changing its structure. It’s like attaching a note to a piece of data.
 
 -   **DataType** - A named collection of traits to represent commonly used concepts that combine data format, data value constraints, and semantic meanings. Example data types are **integer** and **firstName**.
 
